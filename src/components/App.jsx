@@ -3,11 +3,10 @@ import Card from "./Card";
 import contacts from "../contacts";
 import Avatar from "./Avatar";
 
-
 function App() {
   return (
     <div>
-      <Avatar imgSrc="https://avatars0.githubusercontent.com/u/32939546?s=460&u=ad7d7482303ac0be157607acebdae8e03fa912c4&v=4"/>
+      <Avatar imgSrc="https://avatars0.githubusercontent.com/u/32939546?s=460&u=ad7d7482303ac0be157607acebdae8e03fa912c4&v=4" />
       <h1 className="heading">My Contacts</h1>
 
       <Card
